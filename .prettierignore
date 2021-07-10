@@ -1,0 +1,11 @@
+/build
+/dist
+/coverage
+/node_modules
+/.github
+/.idea
+/.storybook
+/.vscode
+/public
+/src/assets
+/src/**/.DS_Store
