@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Grid, Icon, Input, TextArea } from 'semantic-ui-react';
+import { Button, Container, Grid, Icon, Input, TextArea } from 'semantic-ui-react';
 import styles from './index.module.scss';
 
 const ContactForm = () => {
@@ -21,6 +21,11 @@ const ContactForm = () => {
             <Grid.Row>
                 <Grid.Column width="16">
                     <TextArea style={{ width: '100%' }}></TextArea>
+                </Grid.Column>
+            </Grid.Row>
+            <Grid.Row>
+                <Grid.Column width="16">
+                    <Button content="SEND MESSAGE" fluid />
                 </Grid.Column>
             </Grid.Row>
         </Grid>
