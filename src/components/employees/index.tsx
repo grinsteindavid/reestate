@@ -1,10 +1,10 @@
 import React from 'react';
-import { Container, Row, Col, Card, ListGroup, ListGroupItem, Jumbotron } from 'react-bootstrap';
+// import { Container, Row, Col, Card, ListGroup, ListGroupItem, Jumbotron } from 'react-bootstrap';
 
 const Employees = () => {
     return (
-        <Jumbotron>
-            <Container>
+        <>
+            {/* <Container>
                 <Row>
                     <Col>
                         <h2 style={{ color: 'grey' }}>Our hand picked agents are to guide & help you</h2>
@@ -58,8 +58,8 @@ const Employees = () => {
                         </Card>
                     </Col>
                 </Row>
-            </Container>
-        </Jumbotron>
+            </Container> */}
+        </>
     );
 };
 

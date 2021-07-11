@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
-import ControlledCarousel from 'components/carousel';
+// import { Container, Row, Col, Button } from 'react-bootstrap';
+// import ControlledCarousel from 'components/carousel';
 
 const WhoAreWe = () => {
     return (
-        <Container style={{ backgroundColor: 'black' }}>
-            <Row>
+        <>
+            {/* <Row>
                 <Col>
                     <h2 style={{ color: 'grey' }}>Introductory words about ourselves</h2>
                     <h1 style={{ color: 'white' }}>WHO ARE WE?</h1>
@@ -25,8 +25,8 @@ const WhoAreWe = () => {
                 <Col>
                     <ControlledCarousel />
                 </Col>
-            </Row>
-        </Container>
+            </Row> */}
+        </>
     );
 };
 

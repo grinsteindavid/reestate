@@ -1,10 +1,10 @@
 import React from 'react';
-import { Jumbotron, Container, Row, Col, Accordion, Card } from 'react-bootstrap';
+// import { Jumbotron, Container, Row, Col, Accordion, Card } from 'react-bootstrap';
 
 const Faqs = () => {
     return (
-        <Jumbotron>
-            <Container>
+        <>
+            {/* <Container>
                 <Row>
                     <Col>
                         <h2 style={{ color: 'grey' }}>The most frequent asked questions</h2>
@@ -45,8 +45,8 @@ const Faqs = () => {
                         </Accordion>
                     </Col>
                 </Row>
-            </Container>
-        </Jumbotron>
+            </Container> */}
+        </>
     );
 };
 

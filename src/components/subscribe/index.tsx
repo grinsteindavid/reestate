@@ -1,31 +1,44 @@
 import React from 'react';
-import { Jumbotron, Container, Row, Col, Form, Button } from 'react-bootstrap';
+import { Button, Container, Grid, Input } from 'semantic-ui-react';
+import styles from './index.module.scss';
+
+const InputActionButton = () => {
+    return <Button size="large" content="SUBSCRIBE" color="black" />;
+};
 
 const Subscribe = () => {
     return (
-        <Jumbotron>
-            <Container>
-                <Row>
-                    <Col>
-                        <h2 style={{ color: 'grey' }}>Get the best prices right in your email</h2>
-                        <h1 style={{ color: 'black' }}>10% OFF IF YOU SUBSCRIBE NOW</h1>
-                        <p style={{ color: 'grey' }}>
-                            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                            nibh id elit.
-                        </p>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <Form>
-                            <Form.Control type="text" />
-                            <Button>Subscribe</Button>
-                        </Form>
-                    </Col>
-                </Row>
+        <>
+            <Container fluid textAlign="center" className={styles.container}>
+                <Grid padded>
+                    <Grid.Row>
+                        <Grid.Column>
+                            <h3 style={{ color: 'grey', marginBottom: 0, fontWeight: 'lighter' }}>
+                                Get the best prices right in your email
+                            </h3>
+                            <h1 style={{ color: 'black', fontWeight: 'bolder', marginTop: 5 }}>
+                                10% OFF IF YOU SUBSCRIBE NOW
+                            </h1>
+                            <p style={{ color: 'grey' }}>
+                                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+                                sem nibh id elit.
+                            </p>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column>
+                            <Input
+                                fluid
+                                action={InputActionButton}
+                                placeholder="Enter your email here"
+                                style={{ border: '1px solid black' }}
+                            />
+                        </Grid.Column>
+                    </Grid.Row>
+                </Grid>
             </Container>
-        </Jumbotron>
+        </>
     );
 };
 
