@@ -1,7 +1,8 @@
 import React from 'react';
-import { Card, Container, Grid, Icon, Image } from 'semantic-ui-react';
+import { Card, Grid, Icon, Image } from 'semantic-ui-react';
 import { range } from 'lodash';
 import styles from './index.module.scss';
+import Container from 'components/container';
 
 const EmployeeCard = () => {
     return (
@@ -30,7 +31,7 @@ const EmployeeCard = () => {
 
 const Employees = () => {
     return (
-        <Container fluid textAlign="center" className={styles.container}>
+        <Container fluid textAlign="center" border="1px solid lightGrey">
             <Grid stackable columns="equal">
                 <Grid.Row>
                     <Grid.Column>

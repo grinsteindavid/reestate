@@ -1,6 +1,6 @@
+import Container from 'components/container';
 import React from 'react';
-import { Button, Container, Grid, Input } from 'semantic-ui-react';
-import styles from './index.module.scss';
+import { Button, Grid, Input } from 'semantic-ui-react';
 
 const InputActionButton = () => {
     return <Button size="large" content="SUBSCRIBE" color="black" />;
@@ -9,7 +9,7 @@ const InputActionButton = () => {
 const Subscribe = () => {
     return (
         <>
-            <Container fluid textAlign="center" className={styles.container}>
+            <Container fluid textAlign="center" border="1px solid lightGrey">
                 <Grid padded>
                     <Grid.Row>
                         <Grid.Column>

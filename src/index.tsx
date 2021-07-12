@@ -4,11 +4,15 @@ import 'styles/themes/default/index.scss';
 import App from './App';
 // import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
+import DEFAULT_THEME from 'styles/themes/default';
 
 ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter>
-            <App />
+            <ThemeProvider theme={DEFAULT_THEME}>
+                <App />
+            </ThemeProvider>
         </BrowserRouter>
     </React.StrictMode>,
     document.getElementById('root'),

@@ -1,6 +1,6 @@
+import Container from 'components/container';
 import React from 'react';
-import { Button, Container, Grid, Icon, Input, TextArea } from 'semantic-ui-react';
-import styles from './index.module.scss';
+import { Button, Grid, Icon, Input, TextArea } from 'semantic-ui-react';
 
 const ContactForm = () => {
     return (
@@ -34,7 +34,11 @@ const ContactForm = () => {
 
 const ContactUs = () => {
     return (
-        <Container fluid className={styles.container}>
+        <Container
+            fluid
+            backgroundColor="rgb(136, 138, 175)"
+            gradientBackground="linear-gradient(0deg, rgba(136, 138, 175, 1) 0%, rgba(118, 112, 131, 1) 100%)"
+        >
             <Grid padded>
                 <Grid.Row>
                     <Grid.Column width="8">

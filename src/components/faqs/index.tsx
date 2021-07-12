@@ -1,6 +1,6 @@
+import Container from 'components/container';
 import React, { useState } from 'react';
-import { Accordion, AccordionTitleProps, Container, Grid, Icon } from 'semantic-ui-react';
-import styles from './index.module.scss';
+import { Accordion, AccordionTitleProps, Grid, Icon } from 'semantic-ui-react';
 
 const Faqs = () => {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -10,7 +10,7 @@ const Faqs = () => {
     };
 
     return (
-        <Container fluid textAlign="center" className={styles.container}>
+        <Container fluid textAlign="center">
             <Grid>
                 <Grid.Row>
                     <Grid.Column width="16">

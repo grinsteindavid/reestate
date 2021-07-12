@@ -1,11 +1,15 @@
+import Container from 'components/container';
 import React from 'react';
-import { Button, Container, Grid, Image } from 'semantic-ui-react';
-// import ControlledCarousel from 'components/carousel';
-import styles from './index.module.scss';
+import { Button, Grid, Image } from 'semantic-ui-react';
 
 const WhoAreWe = () => {
     return (
-        <Container fluid textAlign="center" className={styles.container}>
+        <Container
+            fluid
+            textAlign="center"
+            backgroundColor="rgb(55, 55, 55)"
+            gradientBackground="radial-gradient(circle, rgba(55, 55, 55, 1) 0%, rgba(14, 14, 14, 1) 100%)"
+        >
             <Grid>
                 <Grid.Row>
                     <Grid.Column width="8">
