@@ -1,7 +1,6 @@
 import React from 'react';
 import { Card, Grid, Icon, Image } from 'semantic-ui-react';
 import { range } from 'lodash';
-import styles from './index.module.scss';
 import Container from 'components/container';
 
 const EmployeeCard = () => {

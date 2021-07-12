@@ -1,6 +1,8 @@
 import Container from 'components/container';
 import React from 'react';
 import { Button, Grid, Image } from 'semantic-ui-react';
+import Slider from 'react-slick';
+import { range } from 'lodash';
 
 const WhoAreWe = () => {
     return (
@@ -33,7 +35,16 @@ const WhoAreWe = () => {
                         </div>
                     </Grid.Column>
                     <Grid.Column width="8">
-                        <Image src="http://event-theme.com/themes/reEstate/realeastate/assets/img/preview/slider/slide-775x500x1.jpg" />
+                        <Slider>
+                            {range(0, 10).map((number) => {
+                                return (
+                                    <Image
+                                        key={number}
+                                        src="http://event-theme.com/themes/reEstate/realeastate/assets/img/preview/slider/slide-775x500x1.jpg"
+                                    />
+                                );
+                            })}
+                        </Slider>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
