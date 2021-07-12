@@ -21,9 +21,9 @@ const Testimonials = () => {
                                 </Grid.Column>
                                 <Grid.Column width="12">
                                     <h3 style={{ color: 'grey' }}>
-                                        Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros.
-                                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                                        cubilia.
+                                        &quot;Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec
+                                        eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                                        cubilia.&quot;
                                     </h3>
                                     <h4 style={{ color: 'black' }}>Jhon Anthony Gibson</h4>
                                 </Grid.Column>

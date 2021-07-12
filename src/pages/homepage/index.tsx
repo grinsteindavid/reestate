@@ -9,6 +9,7 @@ import ScrollToTopButton from 'components/scroll_to_top_button';
 import SocialMedia from 'components/social_media';
 import Ratings from 'components/ratings';
 import Testimonials from 'components/testimonials';
+import BlogPosts from 'components/blog_posts';
 
 function Homepage() {
     return (
@@ -19,6 +20,7 @@ function Homepage() {
             <Testimonials />
             <Ratings />
             <Faqs />
+            <BlogPosts />
             <Subscribe />
             <ContactUs />
             <ScrollToTopButton />
