@@ -8,6 +8,7 @@ import WhoAreWe from 'components/who_are_we';
 import ScrollToTopButton from 'components/scroll_to_top_button';
 import SocialMedia from 'components/social_media';
 import Ratings from 'components/ratings';
+import Testimonials from 'components/testimonials';
 
 function Homepage() {
     return (
@@ -15,6 +16,7 @@ function Homepage() {
             <NavbarPage />
             <WhoAreWe />
             <Employees />
+            <Testimonials />
             <Ratings />
             <Faqs />
             <Subscribe />

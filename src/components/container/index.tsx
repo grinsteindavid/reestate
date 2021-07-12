@@ -11,6 +11,8 @@ export interface IProps {
     width?: number | string;
     textAlign?: SemanticTEXTALIGNMENTS;
     border?: string;
+    paddingTop?: number | string;
+    paddingBottom?: number | string;
 }
 
 const Container = styled.div<IProps>`
@@ -21,8 +23,8 @@ const Container = styled.div<IProps>`
     width: ${(props) => (props.fluid ? '100%' : props.width)};
     text-align: ${(props) => props.textAlign};
     border: ${(props) => props.border};
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: ${(props) => props.paddingTop};
+    padding-bottom: ${(props) => props.paddingBottom};
 `;
 
 Container.defaultProps = {
@@ -34,6 +36,8 @@ Container.defaultProps = {
     width: 0,
     textAlign: 'left',
     border: 'none',
+    paddingTop: '3%',
+    paddingBottom: '3%',
 };
 
 export default Container;
