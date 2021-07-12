@@ -5,6 +5,7 @@ import Faqs from 'components/faqs';
 import NavbarPage from 'components/navbar';
 import Subscribe from 'components/subscribe';
 import WhoAreWe from 'components/who_are_we';
+import ScrollToTopButton from 'components/scroll_to_top_button';
 
 function Homepage() {
     return (
@@ -15,6 +16,7 @@ function Homepage() {
             <Faqs />
             <Subscribe />
             <ContactUs />
+            <ScrollToTopButton />
         </div>
     );
 }
