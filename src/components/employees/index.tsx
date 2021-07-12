@@ -5,7 +5,7 @@ import Container from 'components/container';
 
 const EmployeeCard = () => {
     return (
-        <Card>
+        <Card fluid>
             <Image
                 src="http://event-theme.com/themes/reEstate/realeastate/assets/img/preview/team/team-270x270x1.jpg"
                 wrapped
