@@ -10,8 +10,8 @@ const Faqs = () => {
     };
 
     return (
-        <Container fluid textAlign="center">
-            <Grid>
+        <Container fluid textAlign="center" border="1px solid lightGrey">
+            <Grid stackable>
                 <Grid.Row>
                     <Grid.Column width="16">
                         <h3 style={{ color: 'grey', fontWeight: 'lighter', marginBottom: 0 }}>

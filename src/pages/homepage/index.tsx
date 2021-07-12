@@ -6,6 +6,8 @@ import NavbarPage from 'components/navbar';
 import Subscribe from 'components/subscribe';
 import WhoAreWe from 'components/who_are_we';
 import ScrollToTopButton from 'components/scroll_to_top_button';
+import SocialMedia from 'components/social_media';
+import Ratings from 'components/ratings';
 
 function Homepage() {
     return (
@@ -13,10 +15,12 @@ function Homepage() {
             <NavbarPage />
             <WhoAreWe />
             <Employees />
+            <Ratings />
             <Faqs />
             <Subscribe />
             <ContactUs />
             <ScrollToTopButton />
+            <SocialMedia />
         </div>
     );
 }

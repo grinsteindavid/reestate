@@ -12,7 +12,7 @@ const WhoAreWe = () => {
             backgroundColor="rgb(55, 55, 55)"
             gradientBackground="radial-gradient(circle, rgba(55, 55, 55, 1) 0%, rgba(14, 14, 14, 1) 100%)"
         >
-            <Grid>
+            <Grid stackable>
                 <Grid.Row>
                     <Grid.Column width="8">
                         <h3 style={{ color: 'lightGrey', fontWeight: 'lighter' }}>

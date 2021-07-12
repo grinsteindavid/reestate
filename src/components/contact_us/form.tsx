@@ -19,7 +19,7 @@ const ContactForm = () => {
             </Grid.Row>
             <Grid.Row>
                 <Grid.Column width="16">
-                    <TextArea style={{ width: '100%' }}></TextArea>
+                    <TextArea placeholder="Write your message here..." style={{ width: '100%' }}></TextArea>
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row>

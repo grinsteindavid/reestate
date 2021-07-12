@@ -10,7 +10,7 @@ const ContactUs = () => {
             backgroundColor="rgb(136, 138, 175)"
             gradientBackground="linear-gradient(0deg, rgba(136, 138, 175, 1) 0%, rgba(118, 112, 131, 1) 100%)"
         >
-            <Grid padded>
+            <Grid stackable padded>
                 <Grid.Row>
                     <Grid.Column width="8">
                         <h1 style={{ color: 'white' }}>GET IN TOUCH WITH US</h1>
